@@ -1,0 +1,242 @@
+html, body {
+    scroll-behavior: smooth;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 0;
+    scrollbar-width: 6px;
+}
+
+::-webkit-scrollbar, ::-webkit-scrollbar-track {
+    background: var(--scrollbar-background);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4d4d57;
+}
+
+::-webkit-scrollbar, ::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.landing-page .sticky-header header.sticky {
+    margin-top: 0;
+    background: #242935;
+}
+
+.nav-link {
+    color: #FFF;
+}
+
+.landing-page .sticky-header header.sticky .navbar-nav .nav-item .nav-link { 
+    color: #FFF;
+}
+
+.landing-home { 
+    background-color: #242935;
+}
+
+.landing-home .content h1 { 
+    color: #FFF !important;
+    background-image: none;
+
+}
+
+.buy-btn {
+    background-color: #ff7e1a !important;
+    letter-spacing: 1.5px;
+}
+
+.buy-btn a {
+   color: #FFF !important;
+}
+
+.landing-page .sticky-header header.sticky .buy-btn {
+    background: linear-gradient(26deg, rgba(215,118,43,1) 0%, rgba(255,126,26,1) 100%);
+   
+}
+
+
+.title-presente {
+    font-weight: 700;
+   padding-left: 40px ;
+    background-position: left;
+    width: 50vw;
+    line-height: 1;
+    font-size: calc(25px + (57 - 25) * ((100vw - 300px) / (1920 - 300)));
+}
+
+.title > h1 {
+    align-items: center;
+    font-size: 4rem;
+    width: 40vw;
+    line-height: 97%;
+    
+}
+
+.title > h1 > span {
+    margin-left: 5px;
+    color: #ff7e1a !important;
+}
+
+.title > p {
+    color: #f1f1f1;
+}
+
+.header-wrap{
+  margin-top: 1rem ;
+  
+}
+
+.landing-home .col-xl-5 { 
+    background-color: #242935 !important;
+}
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    margin-bottom: 50px;
+}
+
+.session-1 > p {
+    padding: 30px;
+    margin-left: 60px;
+    line-height: 28px;
+    font-size: 1.4rem;
+    color: #787878;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 70%;
+}
+.session-1 span {
+    color:#ff7e1a;
+}
+
+.session-1 > img {
+    max-width: 350px;
+    max-height: 350px;
+    padding-right: 20px;
+}
+
+.section-step{
+    background-color: #242935;
+}
+
+.card-step{ 
+   background-image: url('../images/portifolio/background4.png'); 
+}
+
+
+.section-step .card-step .works {
+    
+   
+    max-width: 80%;
+    margin: 0 auto 0 auto;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+   }
+
+
+   .section-step h1{
+     font-weight: 700;
+     padding-left: 40px ;
+     background-position: left;
+     color: #FFF;
+     width: 50vw;
+     line-height: 1;
+     font-size: calc(25px + (57 - 25) * ((100vw - 300px) / (1920 - 300)));  
+   }
+   
+
+   .section-step .card-step .works .card-1 {
+       
+       display: flex;
+       justify-content: space-between;
+       border: solid 2px #FF7D1A;
+       width: 45%;
+       padding: 10px;
+       border-radius: 10px;
+       line-height: 28px;
+       font-size: 1.1rem;
+       color: #FFF;
+
+  }
+  .section-step .card-step .works .card-1 h3 {
+       font-size: 53px;
+       padding-right: 10px;
+       color: #FF7D1A;
+  }
+  .section-step .card-step .works .card-1 p {
+      padding: 10px;
+  }
+
+  .section-step .card-step .works .card-2 {
+      display: flex;
+      justify-content: space-between;
+      border: solid 2px #FF7D1A;
+       width: 45%;
+       padding: 10px;
+       border-radius: 10px;
+       line-height: 28px;
+       font-size: 1.1rem;
+       color: #FFF;
+  }
+  .section-step .card-step .works .card-2 h3 {
+       font-size: 53px;
+       padding-right: 10px;
+       color: #FF7D1A;
+  }
+  .section-step .card-step .works .card-2 p {
+      padding: 10px;
+  }
+
+  .section-step .card-step .works .card-3 {
+      display: flex;
+      justify-content: space-between;
+      border: solid 2px #FF7D1A;
+       width: 45%;
+       padding: 10px;
+       border-radius: 10px;
+       margin-left: 100px;
+       line-height: 28px;
+       font-size: 1.1rem;
+       color: #FFF;
+  }
+  .section-step .card-step .works .card-3 h3 {
+       font-size: 53px;
+       padding-right: 10px;
+       color: #FF7D1A;
+  }
+  .section-step .card-step .works .card-3 p {
+      padding: 10px;
+  }
+
+  .section-step .card-step .works .card-4 {
+      display: flex;
+      justify-content: space-between;
+      border: solid 2px #FF7D1A;
+       width: 45%;
+       padding: 10px;
+       border-radius: 10px;
+       line-height: 97%;
+       margin: 250px 30px 30px 100px;
+       line-height: 28px;
+       font-size: 1.1rem;
+       color: #FFF;
+  }
+  .section-step .card-step .works .card-4 h3 {
+       font-size: 53px;
+       padding-right: 10px;
+       color: #FF7D1A;
+  }
+  .section-step .card-step .works .card-4 p {
+      padding: 10px;
+  }
+  
+ 
+
+
