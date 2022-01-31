@@ -124,20 +124,17 @@ html, body {
     background-color: #242935;
 }
 
-.card-step{ 
-   background-image: url('../images/portifolio/background4.png'); 
+.card-step{
+ height: 600px;
+ background-image: url('../images/portifolio/rocket-lauch-1.png');
+ background-repeat: no-repeat;
+ background-position: center;
 }
 
-
 .section-step .card-step .works {
+     
     
-   
-    max-width: 80%;
-    margin: 0 auto 0 auto;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    grid-template-columns: 1fr 1fr;
+
    }
 
 
@@ -157,7 +154,7 @@ html, body {
        display: flex;
        justify-content: space-between;
        border: solid 2px #FF7D1A;
-       width: 45%;
+       width: 75%;
        padding: 10px;
        border-radius: 10px;
        line-height: 28px;
@@ -178,7 +175,7 @@ html, body {
       display: flex;
       justify-content: space-between;
       border: solid 2px #FF7D1A;
-       width: 45%;
+       width: 75%;
        padding: 10px;
        border-radius: 10px;
        line-height: 28px;
@@ -198,10 +195,9 @@ html, body {
       display: flex;
       justify-content: space-between;
       border: solid 2px #FF7D1A;
-       width: 45%;
+       width: 75%;
        padding: 10px;
        border-radius: 10px;
-       margin-left: 100px;
        line-height: 28px;
        font-size: 1.1rem;
        color: #FFF;
@@ -219,11 +215,9 @@ html, body {
       display: flex;
       justify-content: space-between;
       border: solid 2px #FF7D1A;
-       width: 45%;
+       width: 75%;
        padding: 10px;
        border-radius: 10px;
-       line-height: 97%;
-       margin: 250px 30px 30px 100px;
        line-height: 28px;
        font-size: 1.1rem;
        color: #FFF;
@@ -236,7 +230,24 @@ html, body {
   .section-step .card-step .works .card-4 p {
       padding: 10px;
   }
+
+
+  .project-slide{
+    background-color: #242935;
+    color: #FFF;
+  }
   
  
+ .section-form{
+    padding: 50px 0 50px 0;
+ }
+
+ .owl-theme .owl-dots .owl-dot span {
+    background: #FFF;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background-color: #FF7D1A !important;
+ }
 
 

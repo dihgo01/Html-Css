@@ -17073,7 +17073,6 @@ footer {
     content: "";
     position: absolute;
     left: 0;
-    background-image: url(../images/landing/left-left.png);
     height: 165px;
     width: 250px;
     top: 0; }
@@ -17081,7 +17080,6 @@ footer {
     content: "";
     position: absolute;
     right: 0;
-    background-image: url(../images/landing/leaf-right.png);
     height: 208px;
     width: 250px;
     top: 0; }
